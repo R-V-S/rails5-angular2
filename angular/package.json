@@ -7,7 +7,7 @@
     "start": "ng serve",
     "lint": "tslint \"src/**/*.ts\"",
     "test": "ng test",
-    "postinstall": "./node_modules/.bin/typings install && ng build",
+    "postinstall": "typings install && ng build",
     "pree2e": "webdriver-manager update",
     "e2e": "protractor"
   },
