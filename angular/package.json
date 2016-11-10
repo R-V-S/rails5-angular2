@@ -7,6 +7,8 @@
     "start": "ng serve",
     "lint": "tslint \"src/**/*.ts\"",
     "test": "ng test",
+    "heroku-prebuild": "npm install angular-cli",
+    "postinstall": "ng build --prod",
     "pree2e": "webdriver-manager update",
     "e2e": "protractor"
   },
