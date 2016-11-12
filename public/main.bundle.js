@@ -38431,7 +38431,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 
 var AppComponent = (function () {
     function AppComponent() {
-        this.title = 'app works!';
+        this.title = 'Bloc Rails-Angular Starter Project';
     }
     AppComponent = __decorate([
         __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["F" /* Component */])({
@@ -54138,13 +54138,13 @@ process.umask = function() { return 0; };
 /* 588 */
 /***/ function(module, exports) {
 
-module.exports = ""
+module.exports = "html {\n  font-size:  16px;\n}\n\nh1 {\n  font-size: 2rem;\n  margin: 0;\n  text-align: center;\n  color: #aaa;\n  font-family: sans-serif;\n  font-weight: normal;\n}\n\n#bloc-stripe {\n  background: #333;\n  padding: 1em;\n}\n\n.logo {\n  text-align: center;\n}"
 
 /***/ },
 /* 589 */
 /***/ function(module, exports) {
 
-module.exports = "<h1>\n  {{title}}\n</h1>\n"
+module.exports = "<h1>\n  <section id=\"bloc-stripe\">\n    <img src=\"./assets/images/bloc-logo-white.png\" class=\"logo\" />\n    <h1>{{title}}</h1>\n  </section>\n</h1>\n"
 
 /***/ },
 /* 590 */
