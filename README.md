@@ -1,24 +1,4 @@
-# README
+## Bloc Rails-Angular Project Starter
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+A Rails 5 / Angular 2 starter application for students of [Bloc](https://www.bloc.io/). 
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
