@@ -19,6 +19,9 @@ gem 'puma', '~> 3.0'
 # Use Rack CORS for handling Cross-Origin Resource Sharing (CORS), making cross-origin AJAX possible
 # gem 'rack-cors'
 
+# Use AMS to convert data to/from JSON using the to_json or as_json methods 
+gem 'active_model_serializers'
+
 group :production do
    gem 'pg'
    gem 'rails_12factor'
