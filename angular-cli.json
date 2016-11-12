@@ -5,8 +5,8 @@
   },
   "apps": [
     {
-      "root": "src",
-      "outDir": "../public",
+      "root": "angular/src",
+      "outDir": "public",
       "assets": [
         "assets",
         "favicon.ico"
@@ -32,12 +32,12 @@
   "packages": [],
   "e2e": {
     "protractor": {
-      "config": "./protractor.conf.js"
+      "config": "angular/protractor.conf.js"
     }
   },
   "test": {
     "karma": {
-      "config": "./karma.conf.js"
+      "config": "angular/karma.conf.js"
     }
   },
   "defaults": {
